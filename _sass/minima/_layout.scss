@@ -27,8 +27,8 @@
 .site-title {
   float:left;
   display: block;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: $base-font-size*1.4;
+  font-weight: 600;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -37,13 +37,17 @@
   &:visited {
     color: $yellow-color;
   }
+
+  @include media-query($on-palm) {
+      font-size: $base-font-size-on-palm*1.4;
+  }
 }
 
 .lang-nav {
     float:right;
     display: block;
     .lang-nav-ul {
-        margin:10px 0 10px 0;
+        margin:10px 0 10px 5px;
         display:inline-block;
         li {
             display:inline-block;
@@ -95,9 +99,7 @@
   .menu-icon {display:none}
 
   @include media-query($on-palm) {
-    right: $spacing-unit / 2;
     border-radius: 3px;
-    text-align: left;
 
     .menu-icon {
       display: block;
@@ -282,14 +284,17 @@
 
   h1 {
     font-size: $base-font-size*1.5;
-    @include media-query($on-laptop) {
-      font-size: 32px;
+    //@include media-query($on-laptop) {
+    //  font-size: 32px;
+    //}
+    @include media-query($on-palm) {
+      font-size: $base-font-size-on-palm*1.5;
     }
   }
   h2 {
     font-size: $base-font-size*1.30;
-    @include media-query($on-laptop) {
-      font-size: 28px;
+    @include media-query($on-palm) {
+      font-size: $base-font-size-on-palm*1.3;
     }
   }
 
@@ -297,8 +302,8 @@
     font-size: $base-font-size*1.20;
     margin-bottom: $spacing-unit*0.6;
 
-    @include media-query($on-laptop) {
-      font-size: 22px;
+    @include media-query($on-palm) {
+      font-size: $base-font-size-on-palm*1.2;
     }
   }
 
@@ -306,8 +311,8 @@
     font-size: $base-font-size*1.10;
     margin-bottom: $spacing-unit*0.6;
 
-    @include media-query($on-laptop) {
-      font-size: 18px;
+    @include media-query($on-palm) {
+      font-size: $base-font-size-on-palm*1.1;
     }
   }
 }

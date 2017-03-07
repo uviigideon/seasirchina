@@ -16,9 +16,11 @@ weight: 10
 .finish-anker{width:100px;height:100px;margin:  0 0 2em 0}
 </style>
 
-<img src="{{ site.baseurl }}/images/hibiscus.gif" alt="hibiscus" width="100" height="100" />
-<strong><span id="greeting-begin">2017年1月より　はじめます。</span></strong>
-<img src="{{ site.baseurl }}/images/hibiscus.gif" alt="hibiscus" width="100" height="100" />
+_2017年1月より　はじめます。_
+
+<br />
+<img src="{{ site.baseurl }}/images/hibiscus.gif" alt="伕桑花圖片" width="100" height="100" />
+<br /><br />
 
 <img src="{{ site.baseurl }}/images/gekkousou-yilan.gif" />
 <br /><br />
