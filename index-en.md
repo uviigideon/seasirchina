@@ -21,4 +21,4 @@ Unlike Gekkousou Okinawa and Kyoto, Gekkousou Yilan is pleace at vary contryside
 
 <br />
 
-The local partern Heng Wen is also a member of eco farmer
+If your are interesting in Taiwan eco communities or eco farming. We suggest you to coming and visite us. 
