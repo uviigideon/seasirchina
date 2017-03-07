@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 
+  ct: 月光莊・宜蘭
+  jp: 月光荘・宜蘭
+  en: Guesthouse Yilan - Gekkousou
+email: gekkousou.yilan@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Guesthouse Gekkousou in Yilan, Taiwan. We are good relationship with Gekkousou Kyoto and Gekkousou Okinawa. Green rice fields and tasty water are all around us. As a member of local organic farmer group, Two Hunder Hacters, we are running a small farm near by. In the spring, guest are always welcome to sweat with us in the day, and get drunk in the night!
+baseurl: "" # the subpath of your site, e.g. /blog
+i:
+    url: "/images"
+url: "http://yilan.gekkousou.com" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  gekkousou
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems: ['jekyll-feed','jekyll-paginate','jekyll-polyglot']
+
+languages: ["ct", "jp", "en"]
+lang_name:
+    ct: 中文
+    jp: 日本語
+    en: English
+default_lang: "ct"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
+
+google_analytics: "UA-92996524-1"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .swp
