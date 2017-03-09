@@ -20,6 +20,14 @@ weight: 40
     background-color: rgba(250,250,200,0.7);
     padding: 0.3em 1em;
 }
+.overlay {
+    background:transparent;
+    position:relative;
+    width:640px; /* your iframe width */
+    height:480px; /* your iframe height */
+    top:480px; /* your iframe height */
+    margin-top:-480px; /* your iframe height */
+}
 </style>
 
 # 交通指引
@@ -27,6 +35,7 @@ weight: 40
 * [搭公車到月光莊](#bus)
 * [搭計程車到月光莊](#taxi)
 
+<div class="overlay" onClick="style.pointerEvents='none'"></div>
 <iframe src="https://www.google.com/maps/d/embed?mid=1A-iLDS2opuGsB5E9Lj-_deCGOx4" width="640" height="480"></iframe><br />
 
 ## <a name="bus"></a>=搭公車到月光莊=

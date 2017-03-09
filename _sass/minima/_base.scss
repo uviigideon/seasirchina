@@ -23,7 +23,17 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  background-repeat: no-repeat; 
+  background-position: right top;
+  background-attachment: fixed;
 }
+
+$bg-1: "/images/bg_1.jpg";
+// .imageCycle1
+// body {
+//    background:url($bg-1) repeat right top;
+// }
+
 
 
 
