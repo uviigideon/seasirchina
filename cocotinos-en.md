@@ -27,12 +27,16 @@ permalink: /cocotinos/
   width: 100%;
   border-collapse: collapse;
 }
+.m300 {
+  max-width: 300px;
+}
 .small-font{font-size:13px}
 .w540 { width: 280px;margin-top: 0.5em;margin-bottom: 0.5em}
 @media screen and (max-width: 900px){
   .photo-frame, .photo {
     display:block;
     margin: 1em auto;
+    text-align:center;
   }
   .w540 {max-width:540px;width:100%}
 }
@@ -59,26 +63,18 @@ Other than the Dive package if you need to rent some equipment for your dive, he
 
 {% assign currency = site.data.cocotinos.currency %}
 {% assign equip = site.data.cocotinos.equip %}
-<table class="eq-table">
-<tr><th colspan="7">Equipment Rental</th></tr>
-<tr>
-  <td>Full Rental</td>
-  <td>BCD</td>
-  <td>Regulator</td>
-  <td>Wetsuit</td>
-  <td>Mask</td>
-  <td>Fins</td>
-  <td>Dive Computer</td>
-</tr>
-<tr>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.full}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.bcd}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.regulator}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.wetsuit}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.mask}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.fins}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.dive-com}}</span></td>
-</tr></table>
+
+### Equipment Rental
+
+| Full Rental   | <span class="currency">{{currency}}</span><span class="money">{{equip.full}}</span>       |
+| BCD	          | <span class="currency">{{currency}}</span><span class="money">{{equip.bcd}}</span>	      |
+| Regulator	    | <span class="currency">{{currency}}</span><span class="money">{{equip.regulator}}</span>	|
+| Wetsuit	      | <span class="currency">{{currency}}</span><span class="money">{{equip.wetsuit}}</span>	  |
+| Mask	        | <span class="currency">{{currency}}</span><span class="money">{{equip.mask}}</span>	      |
+| Fins	        | <span class="currency">{{currency}}</span><span class="money">{{equip.fins}}</span>	      |
+| Dive Computer	| <span class="currency">{{currency}}</span><span class="money">{{equip.dive-com}}</span>	  |
+{: .eq-table .m300}
+
 <!-- odyssea divers ))) -->
 
 {% include h1-underline.html h1="Garden Room"%}  <!-- Garden Room ((( -->

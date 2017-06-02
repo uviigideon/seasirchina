@@ -27,12 +27,16 @@ permalink: /cocotinos/
   width: 100%;
   border-collapse: collapse;
 }
+.m300 {
+  max-width: 300px;
+}
 .small-font{font-size:13px}
 .w540 { width: 280px;margin-top: 0.5em;margin-bottom: 0.5em}
 @media screen and (max-width: 900px){
   .photo-frame, .photo {
     display:block;
     margin: 1em auto;
+    text-align:center;
   }
   .w540 {max-width:540px;width:100%}
 }
@@ -59,26 +63,18 @@ _Odyssea Divers团队_拥有专业的技术，是一个值得信赖的团队。�
 
 {% assign currency = site.data.cocotinos.currency %}
 {% assign equip = site.data.cocotinos.equip %}
-<table class="eq-table">
-<tr><th colspan="7">器材租赁</th></tr>
-<tr>
-  <td>全套</td>
-  <td>BCD</td>
-  <td>呼吸调节器</td>
-  <td>湿衣</td>
-  <td>面罩</td>
-  <td>蛙鞋</td>
-  <td>潜水电脑</td>
-</tr>
-<tr>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.full}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.bcd}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.regulator}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.wetsuit}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.mask}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.fins}}</span></td>
-  <td><span class="currency">{{currency}}</span><span class="money">{{equip.dive-com}}</span></td>
-</tr></table>
+
+### 器材租赁
+
+| 全套        | <span class="currency">{{currency}}</span><span class="money">{{equip.full}}</span>       |
+| BCD	        | <span class="currency">{{currency}}</span><span class="money">{{equip.bcd}}</span>	      |
+| 呼吸调节器  | <span class="currency">{{currency}}</span><span class="money">{{equip.regulator}}</span>	|
+| 湿衣        | <span class="currency">{{currency}}</span><span class="money">{{equip.wetsuit}}</span>	  |
+| 面罩        | <span class="currency">{{currency}}</span><span class="money">{{equip.mask}}</span>	      |
+| 蛙鞋        | <span class="currency">{{currency}}</span><span class="money">{{equip.fins}}</span>	      |
+| 潜水电脑	  | <span class="currency">{{currency}}</span><span class="money">{{equip.dive-com}}</span>	  |
+{: .eq-table .m300}
+
 <!-- odyssea divers ))) -->
 
 {% include h1-underline.html h1="花园房"%}  <!-- Garden Room ((( -->

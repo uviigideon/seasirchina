@@ -49,3 +49,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - .swp
+  - .sh
