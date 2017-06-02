@@ -1,0 +1,46 @@
+<div class="slideshow-container">
+  {% for slide in {{include.slides}} %}
+  <div class="mySlides fade photo-frame">
+      <img src="{{site.baseurl}}{{site.i.url}}/{{slide.img}}" style="width:100%" />
+      <div class="text">{{slide.title}}</div>
+      <div class="sub">{{slide.sub}}</div>
+  </div>
+  {% endfor %}
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align:center;margin:10px 0;">
+  {% assign max = {{include.slides|size}} %}  
+  {% for i in (1..max) %}
+  <span class="dot" onclick="currentSlide({{i}})"></span> 
+  {% endfor %}
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" slide-active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " slide-active";
+}
+</script>

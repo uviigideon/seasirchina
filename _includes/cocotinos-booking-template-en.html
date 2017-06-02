@@ -1,0 +1,82 @@
+<!-- ((( template -->
+<fieldset id="room">
+  <legend>Room #</legend>
+  <input type="button" value="Remove this Room" id="remove-room" /> <br />
+  <label for="package">Standard Room Package<span style="display:inline-block"> 
+(4 days 3 Nights with 6 dives)</span></label><br />
+  <select class="choose forChoose sessionStore" name="package">
+    <option value="">Choose Room Package</option>
+    <option value="Garden Room">Garden Room</option>
+    <option value="Water Edge Room">Water Edge Room</option>
+    <option value="Suite">Suite</option>
+  </select><br />
+  <label for="type">Type of Room</label><br />
+  <select class="choose forChoose room-type sessionStore" name="type">
+    <option value="">Choose</option>
+    <option value="Single Use">Single Use</option>
+    <option value="Twin Sharing">Twin Sharing</option>
+    <option value="Double Sharing">Double Sharing</option>
+    <option value="Triple Sharing">Triple Sharing</option>
+  </select><br />
+  <label for="additional-night">Do you need additional night</label><br />
+  <select name="additional-night" class="sessionStore">
+    <option value="no" select>No</option>
+    <option value="Additional 1 night (with 3 dives)">Additional 1 night (with 3 dives)</option>
+    <option value="Additional 2 night (with 6 dives)">Additional 2 night (with 6 dives)</option>
+    <option value="Additional 3 night (with 9 dives)">Additional 3 night (with 9 dives)</option>
+    <option value="Additional 4 night (with 12 dives)">Additional 4 night (with 12 dives)</option>
+    <option value="Additional 5 night (with 15 dives)">Additional 5 night (with 15 dives)</option>
+  </select><br />
+  <div class="guest">
+    <div class="guest-title">Guest #</div>
+    <div>
+    <label for="name">Name</label>
+    <input type="text" name="name" class="guest-name sessionStore" required="required" /><br />
+    <select class="choose forChoose sessionStore package" name="package">
+      <option value="" select>Choose a Package</option>
+      <option value="Diver Package">Diver Package</option>
+      <option value="Non-Diver Package">Non-Diver Package</option>
+    </select>
+    <div>
+      <select class="choose forChoose sessionStore" name="cert">
+        <option value="" select>Diver Certification level</option>
+        <option value="Open Water Diver">Open Water Diver</option>
+        <option value="Advance Diver">Advance Diver</option>
+        <option value="Rescue Diver">Rescue Diver</option>
+        <option value="Dive Maste">Dive Maste</option>
+        <option value="Instructor">Instructor</option>
+      </select><br />
+      <label for="dive-log">Total Number of Dive Log</label>
+      <input name="dive-log" type="number" min="0" class="sessionStore"/><br />
+      <label for="last-dive">Date of Last Dive Log</label>
+      <input type="date" name="last-dive" class="sessionStore"><br />
+      <label for="insurance">Dive Insurance Detail</label><br />
+      <input type="text" name="Insurance" placeholder="(Insurance company and member number)" style="width:100%" class="sessionStore"><br />
+      <label for="equip-rental">Scuba Equipment Rental</label>
+      <select class="sessionStore equip-rental" name="equip-rental">
+        <option value="yes" select>Yes</option>
+        <option value="no">No</option>
+      </select>
+      <div>
+        <label for="height">Height</label>
+        <input type="number" min="50" max="250" name="height" placeholder="cm" class="sessionStore"><br />
+        <label for="weight">Weight</label>
+        <input type="number" min="30" max="150" name="weight" placeholder="kg" class="sessionStore"><br />
+        <label for="foot">Foot Size</label>
+        <input type="number" min="15" max="40" name="foot" placeholder="cm" class="sessionStore"><br />
+        <ul class="equip">
+          <li><input type="checkbox" name="equips" value="BCD">BCD</li>
+          <li><input type="checkbox" name="equips" value="Regulator">Regulator</li>
+          <li><input type="checkbox" name="equips" value="Wetsuit">Wetsuit</li>
+          <li><input type="checkbox" name="equips" value="Mask">Mask</li>
+          <li><input type="checkbox" name="equips" value="Fins">Fins</li>
+          <li><input type="checkbox" name="equips" value="Torch">Torch</li>
+          <li><input type="checkbox" name="equips" value="Dive Computer">Dive Computer</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <input type="hidden" name="=" value="=====" />
+  </div>
+</fieldset>
+<!-- ))) -->

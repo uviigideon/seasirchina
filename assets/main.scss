@@ -4,16 +4,17 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: メイリオ, "Hiragino Kaku Gothic Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Helvetica, Arial, "STHeiti", "SimHei", sans-serif;
+$base-font-family-serif: Georgia, "STHeiti", "SimHei", serif;
 $base-font-size:   16px;
 $base-font-size-on-palm: 14px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
-$text-color:       #333;
+$text-color:       #666;
 $text-color-inv:   #eee;
 $background-color: #fdfcfa;
 
@@ -23,18 +24,23 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $yellow-color: #ea0;
 $brown-color: #863E29;
+$blue-color: #69f;
 
-$brand-color:      #ea0;
-$a-color:          $grey-color;
-$a-hover-color:    $brand-color;
-$a-page-color:     $brown-color;
-$a-page-hover-color: $brown-color;
+$brand-color:      red;
+$a-color:          $blue-color;
+$a-hover-color:    red;
+$a-page-color:     $blue-color;
+$a-page-hover-color: red;
+
+$high-light-color: red;
 
 $em-color: #c00;
-$h1-color: $brown-color;
-$h2-color: $brown-color;
+$h1-color: #000;
+$h2-color: #333;
+$h3-color: #555;
+$h4-color: #555;
 
-
+$post-bg-img: '{{site.baseurl}}{{site.i.url}}/post-bg.png';
 // Width of the content area
 $content-width:    1000px;
 
@@ -42,16 +48,10 @@ $on-palm:          600px;
 $on-laptop:        1000px;
 
 @import "minima";
-@import "tables";
+// @import "tables";
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
-@include media-query($on-palm) {
-    .wrapper {
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
 
 // Import partials from the `minima` theme.
 

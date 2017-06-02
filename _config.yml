@@ -14,31 +14,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 
-  ct: 月光莊・宜蘭
-  jp: 月光荘・宜蘭
-  en: Guesthouse Yilan - Gekkousou
+  cn: 潜梦上海
+  en: SEASIR
 email: gekkousou.yilan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Guesthouse Gekkousou in Yilan, Taiwan. We are good relationship with Gekkousou Kyoto and Gekkousou Okinawa. Green rice fields and tasty water are all around us. As a member of local organic farmer group, Two Hunder Hacters, we are running a small farm near by. In the spring, guest are always welcome to sweat with us in the day, and get drunk in the night!
+    seasir bala bala
+    #baseurl: "/preview" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 i:
     url: "/images"
-url: "http://yilan.gekkousou.com" # the base hostname & protocol for your site, e.g. http://example.com
+js:
+    url: "/js"
+url: "http://www.seasirchina.com" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  gekkousou
+github_username:  uviigideon@gmail.com
 
 # Build settings
 markdown: kramdown
 theme: minima
 gems: ['jekyll-feed','jekyll-paginate','jekyll-polyglot']
 
-languages: ["ct", "jp", "en"]
+languages: ["cn", "en"]
 lang_name:
-    ct: 中文
-    jp: 日本語
+    cn: 中文
     en: English
-default_lang: "ct"
-exclude_from_localization: ["javascript", "images", "css"]
+default_lang: "en"
+exclude_from_localization: ["js", "images", "css"]
 parallel_localization: true
 
 google_analytics: "UA-92996524-1"

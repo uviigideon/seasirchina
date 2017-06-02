@@ -1,0 +1,81 @@
+<!-- ((( template -->
+<fieldset id="room">
+  <legend>房间编号 #</legend>
+  <input type="button" value="取消额外房间" id="remove-room"/> 
+  <label for="package" style="display:block">基础客房套餐<span style="display:inline-block">（四天三晚，六次潜水）</span></label>
+  <select class="choose forChoose sessionStore" name="package">
+    <option value="">选择客房套餐</option>
+    <option value="Garden Room">花园房</option>
+    <option value="Water Edge Room">海景房</option>
+    <option value="Suite">套房</option>
+  </select><br />
+  <label for="type">房间种类</label><br />
+  <select class="choose forChoose room-type sessionStore" name="type">
+    <option value="">选择</option>
+    <option value="Single Use">单人房</option>
+    <option value="Twin Sharing">双人房</option>
+    <option value="Double Sharing">大床房</option>
+    <option value="Triple Sharing">三人房</option>
+  </select><br />
+  <label for="additional-night">是否需要追加住宿</label><br />
+  <select name="additional-night" class="sessionStore">
+    <option value="no" select>否</option>
+    <option value="Additional 1 night (with 3 dives)">追加一晚（含 3次潜水）</option>
+    <option value="Additional 2 night (with 6 dives)">追加二晚（含 6次潜水）</option>
+    <option value="Additional 3 night (with 9 dives)">追加三晚（含 9次潜水）</option>
+    <option value="Additional 4 night (with 12 dives)">追加四晚（含12次潜水）</option>
+    <option value="Additional 5 night (with 15 dives)">追加五晚（含15次潜水）</option>
+  </select><br />
+  <div class="guest">
+    <div class="guest-title">入住客人 #</div>
+    <div>
+    <label for="name">姓名</label>
+    <input type="text" name="name" class="guest-name sessionStore" required="required" /><br />
+    <select class="choose forChoose sessionStore package" name="package">
+      <option value="" select>选择</option>
+      <option value="Diver Package">潜水员套餐</option>
+      <option value="Non-Diver Package">非潜水员套餐</option>
+    </select>
+    <div>
+      <select class="choose forChoose sessionStore" name="cert">
+        <option value="" select>潜水员执照等级</option>
+        <option value="Open Water Diver">开放水域潜水员</option>
+        <option value="Advance Diver">进阶潜水员</option>
+        <option value="Rescue Diver">救援潜水员</option>
+        <option value="Dive Maste">潜水长</option>
+        <option value="Instructor">潜水教练</option>
+      </select><br />
+      <label for="dive-log">总潜水次数</label>
+      <input name="dive-log" type="number" min="0" class="sessionStore"/><br />
+      <label for="last-dive">上次潜水日期</label>
+      <input type="date" name="last-dive" class="sessionStore"><br />
+      <label for="insurance">潜水保险详情</label><br />
+      <input type="text" name="Insurance" placeholder="（保险公司及会员编号）" style="width:100%" class="sessionStore"><br />
+      <label for="equip-rental">是否租赁潜水设备</label>
+      <select class="sessionStore equip-rental" name="equip-rental">
+        <option value="yes" select>是</option>
+        <option value="no">否</option>
+      </select>
+      <div>
+        <label for="height">身高</label>
+        <input type="number" min="50" max="250" name="height" placeholder="厘米" class="sessionStore"><br />
+        <label for="weight">体重</label>
+        <input type="number" min="30" max="150" name="weight" placeholder="千克" class="sessionStore"><br />
+        <label for="foot">鞋码</label>
+        <input type="number" min="15" max="40" name="foot" placeholder="厘米" class="sessionStore"><br />
+        <ul class="equip">
+          <li><input type="checkbox" name="equips" value="BCD">BCD</li>
+          <li><input type="checkbox" name="equips" value="Regulator">呼吸调节器</li>
+          <li><input type="checkbox" name="equips" value="Wetsuit">湿衣</li>
+          <li><input type="checkbox" name="equips" value="Mask">面镜</li>
+          <li><input type="checkbox" name="equips" value="Fins">蛙鞋</li>
+          <li><input type="checkbox" name="equips" value="Torch">潜水手电</li>
+          <li><input type="checkbox" name="equips" value="Dive Computer">潜水电脑</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <input type="hidden" name="=" value="=====" />
+  </div>
+</fieldset>
+<!-- ))) -->

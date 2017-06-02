@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang | default: "en" }}">
+
+<!-- ((( head -->    
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
+    <style>
+        label {display:inline-block}
+        #guest-information label {width:150px}
+        #transfer-detail label {width:250px}
+        .priceT {
+            margin:10px 0;
+            width:910px;
+            line-height:150%;
+        }
+        .priceT th, .priceT td {font-size:12px;padding:5px 8px 4px 8px}
+        input[type="checkbox"] {vertical-align:middle}
+        fieldset {margin-bottom:10px}
+        legend {color:#69f}
+        .check-label{display:inline;}
+    </style>
+</head>
+<!-- ))) head -->    
+
+  <body>
+    {% include header-clean.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper" style="max-width:1050px">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+
+</html>

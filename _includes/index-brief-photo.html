@@ -1,0 +1,11 @@
+<div class="brief-photo photo-frame brief-{{include.align}}">
+  <a class="brief-photo-a" href="{{site.baseurl}}/{{include.href}}/"><img src="{{site.baseurl}}{{site.i.url}}/{{include.src}}" />
+      <div class="brief-photo-mask"{% if include.mask-css %} style="{{include.mask-css}}"{% endif %}>
+    <div class="brief-photo-title">{{include.title}}</div>
+    <div class="brief-photo-sub">{{include.sub}}</div>
+  </div>
+  </a>
+{% if include.photoby %}
+  <div class="brief-photo-by"><i>{{include.photoby}}</i></div>
+{% endif %}
+</div>

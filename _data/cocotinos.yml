@@ -1,0 +1,47 @@
+# (((
+currency: USD
+equip:
+  full: 40
+  bcd: 10
+  regulator: 10
+  wetsuit: 10
+  mask: 6
+  fins: 6
+  dive-com: 12
+garden-room:
+  price:
+    regular:
+      triple: 575
+      twin: 625
+      single: 835
+      non-diver: 375
+    additional:
+      triple: 235
+      twin: 250
+      single: 320
+      non-diver: 130
+water-edge-room:
+  price:
+    regular:
+      triple: 620
+      twin: 690
+      single: 925
+      non-diver: 455
+    additional:
+      triple: 250
+      twin: 270
+      single: 365
+      non-diver: 155
+suite:
+  price:
+    regular:
+      triple: 655
+      twin: 750
+      single: 1155
+      non-diver: 550
+    additional:
+      triple: 250
+      twin: 305
+      single: 445
+      non-diver: 190
+# )))

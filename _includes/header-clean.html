@@ -1,0 +1,13 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper top-nav">
+      <img src="{{site.baseurl}}{{site.i.url}}/seasir-logo.png" width="200" />
+    <nav class="lang-nav">
+        <ul class="lang-nav-ul">
+        {% for tongue in site.languages %}
+              <li><a {% if tongue == site.active_lang %}class="active"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ site.lang_name[tongue] }}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
+  </div>
+</header>

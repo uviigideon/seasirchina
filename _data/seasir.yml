@@ -1,0 +1,168 @@
+naha: # (((
+  kerama:
+    main: naha-full-00.jpg
+    sub: 
+      - naha-full-01.jpg 
+      - naha-full-02.jpg 
+      - naha-full-03.jpg 
+      - naha-full-04.jpg 
+  team:
+    main: naha-full-10.jpg
+    sub: 
+      - naha-full-11.jpg 
+      - naha-full-12.jpg 
+      - naha-full-13.jpg 
+      - naha-full-14.jpg 
+  leisure:
+    imgs:
+      - naha-full-20.jpg
+      - naha-full-21.jpg
+      - naha-full-22.jpg
+    price:
+      two:
+        low: 17024
+        normal: 18104
+        peak: 19184
+      plus: 5400
+  equip:
+    full: 5184
+    scuba: 1080
+    snorkeling: 540
+    dive-com: 864
+    camera: 2160
+    sd: 864
+    nitrox: 1620
+  intro:
+    imgs:
+      - naha-full-30.jpg
+      - naha-full-31.jpg
+      - naha-full-32.jpg
+    price:
+      one: 12000
+      two: 17500
+      three: 21500
+      peak-plus: 500
+  snorkeling:
+    imgs:
+      - naha-full-40.jpg
+      - naha-full-41.jpg
+      - naha-full-42.jpg
+    price:
+      adult: 9000
+      child: 8000
+      peak-plus: 500
+  refresh:
+    price:
+      two:
+        low: 19724
+        normal: 20804
+        peak: 21884
+      plus: 4320
+# naha )))
+naha-half: # (((
+  chibishi:
+    main: naha-half-00.jpg
+    sub: 
+      - naha-half-01.jpg 
+      - naha-half-02.jpg 
+      - naha-half-03.jpg 
+  snorkeling:
+    price:
+      adult: 6050
+      child: 4950
+      peak-plus: 550
+  intro:
+    price:
+      normal: 9350
+      peak-plus: 550
+# naha-half )))
+aka: # (((
+  main: aka-00.jpg
+  sub:
+    - aka-01.jpg
+    - aka-02.jpg
+    - aka-03.jpg
+    - aka-04.jpg
+    - aka-05.jpg
+    - aka-06.jpg
+  pension:
+    1f:
+      twin: 9180
+      single: 10260
+      peak:
+        twin: 10260
+        single: 11340
+    2f:
+      twin: 10260
+      single: 11880
+      peak:
+        twin: 11340
+        single: 14040
+    3f:
+      triple: 10260
+      twin: 11340
+      peak:
+        triple: 11340
+        twin: 12420
+  intro:
+    imgs:
+      - aka-20.jpg
+      - aka-21.jpg
+      - aka-22.jpg
+    price:
+      dive-1: 10584
+      dive-2: 15876
+      dive-3: 21168
+      sk-adult: 7560
+      sk-child: 6480
+  equip:
+    full: 3888
+    scuba: 1080
+    snorkeling: 540
+    dive-com: 864
+    camera: 2160
+    sd: 1234
+    nitrox: 1620
+    light: 1269
+  leisure:
+    imgs:
+      - aka-30.jpg
+      - aka-31.jpg
+      - aka-32.jpg
+    price:
+      dive-1: 6804
+      dive-2: 10584
+      dive-3: 15876
+  night:
+    imgs:
+      - aka-40.jpg
+      - aka-41.jpg
+      - aka-42.jpg
+    price: 6480
+  refresher:
+    price: 13824
+# aka )))
+padi: # (((
+  main: padi-00.png
+  sub: 
+    - padi-01.jpg 
+    - padi-02.jpg 
+    - padi-03.jpg 
+    - padi-04.jpg 
+  ow:
+    price:
+      normal: 58000
+      peak: 63000
+  aow:
+    price:
+      normal: 46000
+      peak: 51000
+  efr:
+    price:
+      normal: 15000
+      peak: 15000
+  res:
+    price:
+      normal: 46000
+      peak: 51000
+# padi )))

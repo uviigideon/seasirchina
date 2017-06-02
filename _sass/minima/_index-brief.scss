@@ -1,0 +1,123 @@
+
+.brief-container {
+    font-family: $base-font-family-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    @extend %clearfix;
+}
+
+.brief-l {
+    float:left;
+    .brief-text-title {
+        right: 15%;
+    }
+}
+.brief-r {
+    float:right;
+    .brief-text-title {
+        left: 15%;
+    }
+    hr {
+        right:0;
+    }
+}
+
+@include media-query($on-palm) {
+  .brief-l {
+      float:none;
+      hr {
+          right:0;
+      }
+  }
+  .brief-text-title {
+      left: 10% !important;
+      right: auto;
+      text-align: left;
+  }
+  .brief-r {
+      float:none;
+  }
+  .brief-text, .brief-photo {
+      text-align:center;
+      width: 100% !important;
+  }
+
+}
+
+.brief-text, .brief-photo {
+    position: relative;
+}
+
+.brief-photo-a {
+    position: relative;
+    display: block;
+}
+
+.brief-photo-mask {
+    position: absolute;
+    left:0;
+    width:100%;
+    top:70%;
+    bottom:0;
+    background-color: rgba(0,0,0,0.2);
+    text-align:center;
+    color: white;
+}
+
+.brief-photo-title {
+    font-size:1.5em;
+    font-weight: 800;
+    margin:0.2em 0 0 0;
+}
+
+.brief-photo-by {
+    position: relative;
+    font-size: 12px;
+    width:100%;
+    text-align: right;
+    margin-top: 2px;
+    padding-right: 3px;
+}
+
+.brief-text-title {
+    font-size:200%;
+    font-weight: 800;
+    position: absolute;
+    top:-0.2em;
+}
+
+.brief-text {
+    height: 260px;
+    width: 440px;
+    hr {
+        position:absolute;
+        border:0; height:2px; background-color:#f66;
+        color:#f66;
+        top: 35px;
+        width: 75%;
+    }
+    ul {
+        margin-top: 1em;
+    }
+}
+
+.brief-text-body {
+  margin: 0 10px;
+  font-family: $base-font-family;
+  position: absolute;
+  top: 45px;
+  font-size: 0.8em;
+  color: $grey-color;
+  p::first-letter { 
+    font-size: 150%;
+  }
+  p {
+    margin-bottom: 0.8em;
+  }
+  line-height: 1.4
+}
+
+.brief-text-season {
+  color: $high-light-color;
+}

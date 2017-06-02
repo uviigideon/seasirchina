@@ -47,7 +47,7 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 h1 {
-    margin: 2em 0 1em 0;
+    margin-bottom: 1em;
     font-size: $base-font-size*1.25;
     color: $h1-color;
     font-weight: bold;
@@ -194,6 +194,12 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+  }
+  @include media-query($on-palm) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 8;
+    padding-left: $spacing-unit / 8;
   }
 }
 

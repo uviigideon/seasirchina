@@ -1,35 +1,27 @@
 ---
 layout: page
-title: Booking
-img: booking.gif
+title: Booking & Cancellation Policy
 lang: en
-permalink: /booking/
+permalink: /cancellation/
 weight: 50
 ---
-<style type="text/css">
+<style>
+.booking > li {
+  margin-bottom:1em;
+  text-align: justify;
+}
 </style>
 
-# *We Can Accept Your Booking Now*
- 
-We will have some reform in Jan and Feb 2017, but we still can serve you. So we still welcome your booking,
-If you can accept some inconvenience. And your more than welcom to work with us!
+# Booking Terms and Condition and Cancellation Policy 
 
-If you like stay in Gakkousou, please fill the booking form below. We will reply you soon. 
-
-
-# *Here is some thing we need your understanding*
- 
-### 500 NT. Doller per bed will be charge to stay in our dormitory.
-
-* You need to pay once you check in.
-* We have no money exchange neerby, please make sure you prepare enough local currency.
-* Cash only.
-
-### Check in time
-* The last bus to our place will departure at 19:40. Please don't miss that if you like to take bus to us.
-* You need to prepare your 23 NT./per person to take the bus. There is no money changer on the bus.
-* If you miss the bus time, you can still take Taxi in bus terminal. (Arround 250 NT.)
-
-### [*->Fill this form to make your Booking<-*](https://docs.google.com/forms/d/e/1FAIpQLSccQVLQyNnYMojPUvyUzG_tB2r_YrorWbtBnWzBbqAO1LYCaA/viewform){: target="_blank"}
-
-### E-mail us if you have any question <gekkousou.yilan@gmail.com>
+1. All guest are required to sign off a liability release form to any related operator of their booking before participate to the activity of the booking.
+1. The company or The operator hold all right to cancel the booking or will stop the guest to go onboard or join any activity if found that the guest are unfit or behavior problem that may cause or jeopardize other guest safety. 
+1. A first minimum 30% deposit are required to confirm the booking within 3 days from the date of the invoice. 
+1. The first 30% deposit are non-refundable condition.
+1. The balance of the payment required 60 days before the activity date, and non-refundable condition.
+1. Any booking request that less than 60 days notice to the activity date full payment are required and non-refundable condition.
+1. If deposit payment did not made within 3 days the booking will automatically cancel.
+1. If balance payment did not made according to payment due date, the booking will be cancel and deposit will apply to non-refundable condition. 
+1. Guest may request change of booking date as long as they is still booking vacancy are available and all changes and charges will follow according to the new request date.
+1. All booking term and condition and cancellation policy apply the same include health problem occur, flight changes effect the arrival date and any unforeseen matter happen before the activity date. 
+{: .booking}
