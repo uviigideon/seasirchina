@@ -1,2 +1,7 @@
-<div class="to-make-booking"><span><i>To make a booking &rarr; </i></span><a href="{{site.baseurl}}/seasir{{include.link}}" class="booking-now" target="_blank"><span class="underline" style="">Booking Now</span></a></div>
+{% if include.link contains "http" %}
+  {% assign url = include.link %}
+{% else %}
+  {% capture url %}{{site.baseurl}}/seasir/{{include.link}}{% endcapture %}
+{% endif %}
+<div class="to-make-booking"><span><i>To make a booking &rarr; </i></span><a href="{{url}}" class="booking-now" target="_blank"><span class="underline" style="">Booking Now</span></a></div>
 <div class="booking-procedure">Click on <span class="booking-blue">BOOKING NOW</span>, you will require to fill in your email address as your contact. Fill in all information as required and summit. You will receive a PayPal deposit request from SEASIR LTD. account, to secure your booking please make your deposit of JPY <span class="money">{{include.deposit}}</span> per person within 3 days start from the day you receive deposit request from our PayPal account, or within 24 hours if your booking request is less than less than 3 days from the departure date. All booking request will cancel if no deposit receive.</div>

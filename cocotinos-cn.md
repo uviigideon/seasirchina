@@ -4,43 +4,7 @@ lang: cn
 permalink: /cocotinos/
 
 ---
-<style type="text/css">
-.td-tail {
-  width:100%;
-  border: 0;
-  border-bottom:2px solid #f66;
-}
-.h1-table {
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
-}
-.m1 {
-  margin-right: 8px;
-}
-.eq-table , 
-.eq-table th,
-.eq-table td {
-  border: 2px solid #f66;
-  padding: 0.2em 0.5em;
-}
-.eq-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.m300 {
-  max-width: 300px;
-}
-.small-font{font-size:13px}
-.w540 { width: 280px;margin-top: 0.5em;margin-bottom: 0.5em}
-@media screen and (max-width: 900px){
-  .photo-frame, .photo {
-    display:block;
-    margin: 1em auto;
-    text-align:center;
-  }
-  .w540 {max-width:540px;width:100%}
-}
-</style>
+{% include cocotinos.css %}
 
 {% include h1-underline.html img="/cocotinos/logo.png" h1="欢迎来到美娜多Cocotinos"%}
 

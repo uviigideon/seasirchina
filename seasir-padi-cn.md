@@ -232,7 +232,6 @@ hr {border-top:1px dashed #ccc}
 {% include seasir-contact-cn.html %}
 
 {% include base-js.html %}
-<script src="{{site.baseurl}}{{site.js.url}}/cal.js"></script>
 <script>
     $(".detail-on-demand").hide();
     $(".see-more-detail").click(function(){

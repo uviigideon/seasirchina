@@ -166,3 +166,14 @@ padi: # (((
       normal: 46000
       peak: 51000
 # padi )))
+whale: # (((
+  main: whale-00.jpg
+  sub: 
+    - whale-01.jpg 
+    - whale-02.jpg 
+    - whale-03.jpg 
+    - whale-04.jpg 
+  price:
+    adult: 4200
+    child: 3000
+# whale )))

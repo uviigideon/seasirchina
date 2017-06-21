@@ -169,7 +169,7 @@ vertical-align: super;
     font-size:16px;
 }
 .map-box {
-    width:580px;
+    max-width:580px;
 }
 /* }}} addr */
 /* {{{ contact */
@@ -193,12 +193,13 @@ vertical-align: super;
     margin: 0 0 6px 5px;
 }
 .seasir-sub-ibx {
-    display:inline-block;width:400px;vertical-align:top;
+    display:inline-block;max-width:400px;vertical-align:top;
 }
 .seasir-prog-ibx {
     display:block;vertical-align:top;
 }
 .seasir-main-ibx {
+    max-width:480px;
     vertical-align:top;
     margin-bottom:10px;
 }

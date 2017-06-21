@@ -23,7 +23,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($on-laptop) {
   .brief-l {
       float:none;
       hr {
@@ -38,11 +38,9 @@
   .brief-r {
       float:none;
   }
-  .brief-text, .brief-photo {
-      text-align:center;
-      width: 100% !important;
-  }
-
+  .brief-container {text-align:center}
+  .brief-photo {max-width: 410px}
+  .brief-text  {width: 100% !important;max-width: 440px;margin:10px auto;}
 }
 
 .brief-text, .brief-photo {

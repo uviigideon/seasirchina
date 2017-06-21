@@ -233,7 +233,6 @@ We offer international recognized certification PADI in our training facility. O
 {% include seasir-contact-en.html %}
 
 {% include base-js.html %}
-<script src="{{site.baseurl}}{{site.js.url}}/cal.js"></script>
 <script>
     $(".detail-on-demand").hide();
     $(".see-more-detail").click(function(){
@@ -244,7 +243,5 @@ We offer international recognized certification PADI in our training facility. O
         $(this).html($(this).data("toggleText"));
         $(this).data("toggleText", tmp);
     });
-    window.calFactory.gen3MonthCal(".cal");
-    window.calFactory.genCalLink(".cal-link","Check All Year Calendar", "{{ site.baseurl }}/seasir/naha/cal/");
 </script>
 
