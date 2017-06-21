@@ -293,13 +293,19 @@
 
 .to-make-booking {margin:20px 0 10px 0;font-size:30px}
 @media screen and (max-width: $on-laptop) {
-  .seasir-main-ibx, .seasir-sub-ibx {
+  .seasir-main-ibx .seasir-sub-ibx {
     text-align:center;
     width: auto !important;
     display:block !important;
     margin: 1em auto;
     img {width: 100%}
   }
+@media screen and (max-width: 405px) {
+  .seasir-sub-ibx {
+    display:none !important;
+  }
+}
+
 }
 /**
  * Posts
