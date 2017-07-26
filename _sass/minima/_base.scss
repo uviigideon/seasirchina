@@ -129,7 +129,7 @@ a {
   }
 }
 
-em {color: $em-color;font-weight:600;}
+em, .hl {color: $em-color;font-weight:600;}
 
 /**
  * Blockquotes
