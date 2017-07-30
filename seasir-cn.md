@@ -58,7 +58,7 @@ permalink: /seasir/
 <div class="brief-container">
 {% include index-brief-photo.html align="l" src="brief-seasir-aka.jpg" title="阿嘉岛" sub="阿嘉岛详细资讯" href="seasir/aka" %}
   <div class="brief-text brief-r">
-    <div class="brief-text-title">SEASIR AKA stay and Diving</div>
+    <div class="brief-text-title">SEASIR AKA 住宿和潜水</div>
     <hr>
     <div class="brief-text-body">
 <p>
