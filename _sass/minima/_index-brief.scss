@@ -1,50 +1,19 @@
 
 .brief-container {
     font-family: $base-font-family-serif;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    position: relative;
-    @extend %clearfix;
+    margin-bottom: 1.5em;
+    align-items: start;
+    display: flex;
+    flex-direction: row;
 }
 
-.brief-l {
-    float:left;
-    .brief-text-title {
-        right: 15%;
-    }
-}
-.brief-r {
-    float:right;
-    .brief-text-title {
-        left: 15%;
-    }
-    hr {
-        right:0;
-    }
-}
-
-@include media-query($on-laptop) {
-  .brief-l {
-      float:none;
-      hr {
-          right:0;
-      }
-  }
-  .brief-text-title {
-      left: 10% !important;
-      right: auto;
-      text-align: left;
-  }
-  .brief-r {
-      float:none;
-  }
-  .brief-container {text-align:center}
-  .brief-photo {max-width: 410px}
-  .brief-text  {width: 100% !important;max-width: 410px;margin:1em auto 3em auto;text-align:left}
+.rev {
+  flex-direction: row-reverse;
 }
 
 .brief-text, .brief-photo {
-    position: relative;
+    flex-direction: column;
+    display: flex;
 }
 
 .brief-photo-a {
@@ -79,19 +48,19 @@
 }
 
 .brief-text-title {
-    font-size:200%;
+    font-size:160%;
+    margin: 0 2em;
     font-weight: 800;
-    position: absolute;
-    top:-0.2em;
 }
 
 .brief-text {
-    width: 440px;
+    max-width: 440px;
+    margin: 0 1em;
     hr {
-        position:absolute;
+        align-self:flex-end;
+        margin-top:-5px;
         border:0; height:2px; background-color:#f66;
         color:#f66;
-        top: 35px;
         width: 75%;
     }
     ul {
@@ -99,11 +68,14 @@
     }
 }
 
+.rev {
+  .brief-text-title {align-self:flex-end}
+  hr {align-self:start}
+}
+
 .brief-text-body {
   margin: 0 10px;
   font-family: $base-font-family;
-  position: relative;
-  top: 45px;
   font-size: 0.8em;
   color: $grey-color;
   p::first-letter { 
@@ -117,4 +89,31 @@
 
 .brief-text-season {
   color: $high-light-color;
+}
+
+@include media-query($on-laptop) {
+  .brief-container ,.rev{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    .brief-text-title {
+        align-self: start;
+        margin: 0;
+    }
+    hr {align-self: flex-end;width: 80%}
+  }  
+  .brief-container {text-align:center}
+  .brief-photo {max-width: 410px}
+  .brief-text  {width: 100%;max-width: 410px;margin:1em auto 1em auto;text-align:left}
+}
+
+@include media-query($on-palm) {
+  .brief-photo-title {
+    font-size:1.2em;
+    margin:0.1em 0 0 0;
+  }
+  .brief-text-title {
+    font-size:1.2em;
+  }
+  .brief-text-body {font-size:1em}
 }

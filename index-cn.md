@@ -9,8 +9,8 @@ weight: 10
 {% include slides.html slides=site.data.index-slides %}
 
 <div class="brief-container">
-{% include index-brief-photo.html align="l" src="brief-okinawa-01.jpg" title="OKINAWA" sub="Learn More About SEASIR" href="seasir"%}
-  <div class="brief-text brief-r">
+{% include index-brief-photo.html src="brief-okinawa-01.jpg" title="OKINAWA" sub="Learn More About SEASIR" href="seasir"%}
+  <div class="brief-text">
     <div class="brief-text-title">SEASIR</div>
     <hr>
     <div class="brief-text-body">
@@ -27,9 +27,9 @@ SEASIR公司专注于潜水行业超过33年，发展至今我们未改初心依
   </div>
 </div>
 
-<div class="brief-container">
-{% include index-brief-photo.html align="r" src="brief-cocotinos-01.jpg" title="Indonesia" sub="Learn More About Cocotinos" href="cocotinos"%}
-  <div class="brief-text brief-l">
+<div class="brief-container rev">
+{% include index-brief-photo.html src="brief-cocotinos-01.jpg" title="Indonesia" sub="Learn More About Cocotinos" href="cocotinos"%}
+  <div class="brief-text">
     <div class="brief-text-title">Cocotinos</div>
     <hr>
     <div class="brief-text-body">

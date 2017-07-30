@@ -10,8 +10,8 @@ weight: 10
 {% include slides.html slides=site.data.index-slides %}
 
 <div class="brief-container"> <!-- seasir ((( -->
-{% include index-brief-photo.html align="l" src="brief-okinawa-01.jpg" title="OKINAWA" sub="Learn More About SEASIR" href="seasir"%}
-  <div class="brief-text brief-r">
+{% include index-brief-photo.html src="brief-okinawa-01.jpg" title="OKINAWA" sub="Learn More About SEASIR" href="seasir"%}
+  <div class="brief-text">
     <div class="brief-text-title">SEASIR</div>
     <hr>
     <div class="brief-text-body">
@@ -28,9 +28,9 @@ Okinawa is not only for diving, if you ask the dive instructor in SEASIR about t
   </div>
 </div> <!-- ))) seasir -->
 
-<div class="brief-container"> <!-- Cocotinos ((( -->
-{% include index-brief-photo.html align="r" src="brief-cocotinos-01.jpg" title="Indonesia" sub="Learn More About Cocotinos" href="cocotinos"%}
-  <div class="brief-text brief-l">
+<div class="brief-container rev"> <!-- Cocotinos ((( -->
+{% include index-brief-photo.html src="brief-cocotinos-01.jpg" title="Indonesia" sub="Learn More About Cocotinos" href="cocotinos"%}
+  <div class="brief-text">
     <div class="brief-text-title">Cocotinos</div>
     <hr>
     <div class="brief-text-body">

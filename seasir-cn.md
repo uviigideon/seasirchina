@@ -6,7 +6,6 @@ permalink: /seasir/
 ---
 <style type="text/css">
 .brief-text-title {
-    font-size: 1.5em;
     left: 0 !important;
 }
 </style>
@@ -103,7 +102,7 @@ permalink: /seasir/
 <!--- PADI ((( -->
 <div class="brief-container">
 
-{% include index-brief-photo.html align="l" src="brief-seasir-padi.gif" title="PADI 潜水课程" sub="PADI 潜水课程详细资讯" href="seasir/padi" mask-css="left: 180px;top: 70px;width:auto" %}
+{% include index-brief-photo.html align="l" src="brief-seasir-padi.gif" title="PADI 潜水课程" sub="PADI 潜水课程详细资讯" href="seasir/padi" mask-css="left: 44%;top: 20%;width:auto" %}
   <div class="brief-text brief-r">
     <div class="brief-text-title">PADI 潜水课程</div>
     <hr>

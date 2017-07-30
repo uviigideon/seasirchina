@@ -6,14 +6,13 @@ permalink: /seasir/
 ---
 <style type="text/css">
 .brief-text-title {
-    font-size: 1.5em;
-    left: 0 !important;
+  margin: 0;
 }
 </style>
 <!--- NAHA FULL ((( -->
 <div class="brief-container">
-{% include index-brief-photo.html align="l" src="brief-seasir-naha-full.jpg" title="Kerama Islands" sub="Learn More About Full Day Trip" href="seasir/naha/full" photoby="Photo by Yorko Summer" %}
-  <div class="brief-text brief-r">
+{% include index-brief-photo.html src="brief-seasir-naha-full.jpg" title="Kerama Islands" sub="Learn More About Full Day Trip" href="seasir/naha/full" photoby="Photo by Yorko Summer" %}
+  <div class="brief-text">
     <div class="brief-text-title">SEASIR NAHA Full Day</div>
     <hr>
     <div class="brief-text-body">
@@ -59,7 +58,7 @@ Kerama Chibishi island an excellent half day trip for diving and snorking.
 <div class="brief-container">
 {% include index-brief-photo.html align="l" src="brief-seasir-aka.jpg" title="Aka Island" sub="Learn More About SEASIR Aka Island" href="seasir/aka" %}
   <div class="brief-text brief-r">
-    <div class="brief-text-title">SEASIR AKA stay and Diving</div>
+    <div class="brief-text-title">SEASIR AKA Stay and Diving</div>
     <hr>
     <div class="brief-text-body">
 <p>
@@ -101,9 +100,9 @@ One of the most fascinating winter season activity whale watching excursions In 
 <!--- PADI ((( -->
 <div class="brief-container">
 
-{% include index-brief-photo.html align="l" src="brief-seasir-padi.gif" title="PADI Course" sub="Learn More PADI training course in Okinawa with SEASIR" href="seasir/padi" mask-css="left: 180px;top: 70px;width:auto" %}
+{% include index-brief-photo.html align="l" src="brief-seasir-padi.gif" title="PADI Course" sub="Learn More PADI training course in Okinawa with SEASIR" href="seasir/padi" mask-css="left: 44%;top: 20%;width:auto" %}
   <div class="brief-text brief-r">
-    <div class="brief-text-title">PADI Training course Okinawa</div>
+    <div class="brief-text-title">PADI Training Course Okinawa</div>
     <hr>
     <div class="brief-text-body">
 <p>
