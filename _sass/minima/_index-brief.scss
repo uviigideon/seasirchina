@@ -115,8 +115,17 @@
   .brief-text-title {
     font-size:1.2em;
   }
-  .brief-text-body {font-size:1em}
+  .brief-text-body {font-size:1em; margin:0.5em 0}
   .brief-photo-mask {
     top: 65%
+  }
+}
+/* fuck the IE11 */
+_:-ms-fullscreen, :root .brief-container{
+  .brief-text, .brief-photo {
+      display: block;
+  }
+  .brief-text > hr {
+    margin-left:25%;
   }
 }
