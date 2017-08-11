@@ -87,7 +87,7 @@ Japanese Pension facility with scuba diving and others activities in KERAMA ISLA
 <p>
 One of the most fascinating winter season activity whale watching excursions In Okinawa.</p>
 <ul>
-    <li><a href="">Morning trip and noon trip available for each day</a></li>
+    <li><a href="{{site.baseurl}}/seasir/whale">Morning trip and noon trip available for each day</a></li>
 </ul>
 <div class="brief-text-season">
    Season start from 23th December 2016 until 9th April 2017

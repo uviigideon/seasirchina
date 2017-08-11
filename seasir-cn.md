@@ -6,7 +6,7 @@ permalink: /seasir/
 ---
 <style type="text/css">
 .brief-text-title {
-    left: 0 !important;
+  margin:0;
 }
 </style>
 <!--- NAHA FULL ((( -->
@@ -89,7 +89,7 @@ permalink: /seasir/
 冲绳冬季最有趣的水上活动，从年末持续到四月初的赏鲸盛典。
 </p>
 <ul>
-    <li><a href="">每天提供上午行程和下午行程</a></li>
+    <li><a href="{{site.baseurl}}/seasir/whale">每天提供上午行程和下午行程</a></li>
 </ul>
 <div class="brief-text-season">
 赏鲸季从2016年12月23日开始到2017年4月9日止
