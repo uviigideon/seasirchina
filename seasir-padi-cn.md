@@ -162,7 +162,7 @@ hr {border-top:1px dashed #ccc}
 </div>
 
 ### 价目
-{% assign price = site.data.seasir.padi.ow.price %}
+{% assign price = site.data.seasir.padi.efr.price %}
 
 | 平时 |	忙季 |
 | JPY <span class="money">{{ price.normal }}</span>| JPY <span class="money">{{ price.peak }}</span>|

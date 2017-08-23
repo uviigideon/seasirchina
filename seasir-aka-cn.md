@@ -9,7 +9,7 @@ permalink: /seasir/aka/
 所示房间价格均为一人需支付价格，价格包含一日三餐。<br /><span class="hl-red">两晚以上连续住宿者，可享连泊优惠1,000日圆/每位/晚</span>
 {% endcapture %}
 <style type="text/css">
-.seasir-sub-ibx{width:619px}
+.seasir-sub-ibx{max-width:619px !important;}
 .seasir-small-margin {margin: 0 0 23px 4px}
 .photo-frame-small{padding:4px}
 .w600 {max-width:600px}
@@ -155,7 +155,7 @@ Marine House SEASIR 阿嘉岛店成立于1983年。SEASIR阿嘉岛店的特别�
     <td>JPY <span class="money">{{ price.dive-3 }}</span></td>
   </tr>
   <tr><td>浮潜</td>
-    <td style="white-space:nowrap">JPY <span class="money">{{ price.sk-adult }}</span><br>JPY <span class="money">{{ price.dive-3 }}</span></td>
+    <td style="white-space:nowrap">JPY <span class="money">{{ price.sk-adult }}</span><br>JPY <span class="money">{{ price.sk-child }}</span></td>
     <td>成人<br>儿童6-12</td><td>在浅珊瑚礁和热带鱼群中浮潜悠游。</td></tr>
 </table>
 

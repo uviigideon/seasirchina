@@ -9,7 +9,7 @@ permalink: /seasir/aka/
 All charges is base on per person and inclusive of Breakfast, Lunch and Dinner.<br /><span class="hl-red">If booking over 2 nights, JPY 1,000 off per night</span>
 {% endcapture %}
 <style type="text/css">
-.seasir-sub-ibx{width:619px}
+.seasir-sub-ibx{max-width:619px !important;}
 .seasir-small-margin {margin: 0 0 23px 4px}
 .photo-frame-small{padding:4px}
 .w600 {max-width:600px}
@@ -161,7 +161,7 @@ Each day after diving you might just want to pamper yourself in the jacuzzi.
     <td>JPY <span class="money">{{ price.dive-3 }}</span></td>
   </tr>
   <tr><td>Snorkeling</td>
-    <td style="white-space:nowrap">JPY <span class="money">{{ price.sk-adult }}</span><br>JPY <span class="money">{{ price.dive-3 }}</span></td>
+    <td style="white-space:nowrap">JPY <span class="money">{{ price.sk-adult }}</span><br>JPY <span class="money">{{ price.sk-child }}</span></td>
     <td>Adult<br>Child6-12</td><td>Snorkeling around at the shallow reef with colour fishes and coral , accompany by Instructor</td></tr>
 </table>
 

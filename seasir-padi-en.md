@@ -163,7 +163,7 @@ We offer international recognized certification PADI in our training facility. O
 </div>
 
 ### Price
-{% assign price = site.data.seasir.padi.ow.price %}
+{% assign price = site.data.seasir.padi.efr.price %}
 
 | Normal Season |	Peak Season |
 | JPY <span class="money">{{ price.normal }}</span>| JPY <span class="money">{{ price.peak }}</span>|
